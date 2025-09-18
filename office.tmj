@@ -111,7 +111,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Le t\u00e9l\u00e9phone fixe clignotte, il semble y avoir un message d'enregistrer."
+                 "value":"\ud83d\udcde Le t\u00e9l\u00e9phone fixe clignotte ! Cliquez [ESPACE] afin d'enqu\u00eater."
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -150,6 +150,16 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/view.genially.com\/68b97e4df8c03fcf1130e5a3"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"Un tableau pr\u00e9sentant des consignes est accroch\u00e9 sur le mur. Cliquez [ESPACE] afin de vous approcher. "
                 }],
          "type":"tilelayer",
          "visible":true,
