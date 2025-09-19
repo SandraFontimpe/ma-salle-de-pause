@@ -38,7 +38,7 @@
          "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             0, 3, 3, 3, 3, 3, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 3, 3, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 3, 3, 3, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
@@ -47,7 +47,7 @@
             3, 3, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0,
-            0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0,
+            0, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0,
             0, 3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 3, 0, 3, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3,
             0, 3, 0, 3, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3,
@@ -159,7 +159,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"\ud83d\udd0e Un tableau pr\u00e9sentant des consignes est accroch\u00e9 sur le mur. \nCliquez [ESPACE] afin de vous approcher. "
+                 "value":"\ud83d\udd0e Un tableau avec des consignes est accroch\u00e9 sur le mur. \nCliquez [ESPACE] afin de vous approcher. s"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -191,13 +191,13 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":21,
          "id":96,
-         "name":"Tableau des consignes",
+         "name":"Questionnaire",
          "opacity":1,
          "properties":[
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"<iframe width=\"640px\" height=\"480px\" src=\"https:\/\/forms.cloud.microsoft\/e\/qtyFhAJRX1?embed=true\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" style=\"border: none; max-width:100%; max-height:100vh\" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> <\/iframe>"
+                 "value":"https:\/\/forms.cloud.microsoft\/e\/qtyFhAJRX1"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
@@ -207,7 +207,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"QUESTIONNAIRE"
+                 "value":"\ud83d\udd0e Un questionnaire en plusieurs exemplaires intutil\u00e9 \"Faites connaissance \ud83e\ude91\ud83d\udcac\u2728\" est pos\u00e9 sur la table. \nCliquez [ESPACE] pour le lire."
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -876,7 +876,7 @@
                  "y":340
                 }, 
                 {
-                 "height":166.666666666667,
+                 "height":174.166666666667,
                  "id":16,
                  "name":"jitsiMeetingRoom",
                  "properties":[
@@ -896,6 +896,11 @@
                          "value":"onaction"
                         }, 
                         {
+                         "name":"jitsiTriggerMessage",
+                         "type":"string",
+                         "value":"Cliquez [ESPACE] pour assoir commencer une discussion autour de la table."
+                        }, 
+                        {
                          "name":"zoom_margin",
                          "type":"float",
                          "value":1
@@ -903,9 +908,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":241.333333333333,
+                 "width":208.333333333333,
                  "x":13.3333333333333,
-                 "y":377.333333333333
+                 "y":369.833333333333
                 }, 
                 {
                  "height":64,
