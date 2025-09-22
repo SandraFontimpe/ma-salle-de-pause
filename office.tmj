@@ -207,7 +207,7 @@
                 {
                  "name":"openWebsiteTriggerMessage",
                  "type":"string",
-                 "value":"Mettre la photo du groupe"
+                 "value":"Un tableau accroch\u00e9 au mur pr\u00e9sente plusieurs photos d'\u00e9quipes dans leurs bureaux."
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -294,6 +294,16 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/classic.minecraft.net\/"
+                }, 
+                {
+                 "name":"openWebsiteTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"Le PC semble allum\u00e9"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1355,6 +1365,16 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/view.genially.com\/68cd68587b30da7c0615e71d"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":""
                         }],
                  "rotation":0,
                  "type":"",
@@ -1389,6 +1409,16 @@
                          "name":"openWebsite",
                          "type":"string",
                          "value":"https:\/\/view.genially.com\/68d101b9247238291eb047db"
+                        }, 
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":""
                         }],
                  "rotation":0,
                  "type":"",
@@ -1401,6 +1431,12 @@
                  "height":79.2727,
                  "id":42,
                  "name":"Casier 1",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/view.genially.com\/68d101bfa111a989cb402dc2"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1409,12 +1445,6 @@
                  "y":464.36365
                 }],
          "opacity":1,
-         "properties":[
-                {
-                 "name":"openWebsite",
-                 "type":"string",
-                 "value":"https:\/\/view.genially.com\/68d101bfa111a989cb402dc2"
-                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
