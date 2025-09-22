@@ -111,10 +111,10 @@
                 {
                  "name":"openWebsiteTrigger",
                  "type":"string",
-                 "value":"onicon"
+                 "value":"onaction"
                 }, 
                 {
-                 "name":"openWebsiteTriggerButton",
+                 "name":"openWebsiteTriggerAction",
                  "type":"string",
                  "value":"Ouvrir"
                 }, 
