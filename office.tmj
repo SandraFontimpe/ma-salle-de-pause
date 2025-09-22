@@ -94,6 +94,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"openTab",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/view.genially.com\/68ca7633b3fe7c8b3c25d2d0"
@@ -106,7 +111,7 @@
                 {
                  "name":"openWebsiteTrigger",
                  "type":"string",
-                 "value":"onaction"
+                 "value":"onicon"
                 }, 
                 {
                  "name":"openWebsiteTriggerButton",
