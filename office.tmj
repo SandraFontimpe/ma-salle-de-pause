@@ -1435,7 +1435,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/view.genially.com\/68d101bfa111a989cb402dc2"
+                         "value":"<div style=\"width: 100%;\"><div style=\"position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;\"><iframe title=\"Casier 1\" frameborder=\"0\" width=\"1200\" height=\"675\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" src=\"https:\/\/view.genially.com\/68d101bfa111a989cb402dc2\" type=\"text\/html\" allowscriptaccess=\"always\" allowfullscreen=\"true\" scrolling=\"yes\" allownetworking=\"all\"><\/iframe> <\/div> <\/div>"
                         }],
                  "rotation":0,
                  "type":"",
