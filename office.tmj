@@ -99,6 +99,11 @@
                  "value":"https:\/\/view.genially.com\/68ca7633b3fe7c8b3c25d2d0"
                 }, 
                 {
+                 "name":"openWebsiteClosable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"openWebsiteTrigger",
                  "type":"string",
                  "value":"onaction"
@@ -245,7 +250,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"<div style=\"width: 100%;\"><div style=\"position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;\"><iframe title=\"Casier 1\" frameborder=\"0\" width=\"1200\" height=\"675\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" src=\"https:\/\/view.genially.com\/68d101bfa111a989cb402dc2\" type=\"text\/html\" allowscriptaccess=\"always\" allowfullscreen=\"true\" scrolling=\"yes\" allownetworking=\"all\"><\/iframe> <\/div> <\/div>"
+                 "value":"https:\/\/view.genially.com\/68d101bfa111a989cb402dc2"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -283,7 +288,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/view.genially.com\/68b97e4df8c03fcf1130e5a3"
+                 "value":"https:\/\/view.genially.com\/68d101bbbbc81cde48e9dd04"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -321,7 +326,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/view.genially.com\/68b97e4df8c03fcf1130e5a3"
+                 "value":"https:\/\/view.genially.com\/68d101b9247238291eb047db"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -359,7 +364,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/view.genially.com\/68b97e4df8c03fcf1130e5a3"
+                 "value":"https:\/\/view.genially.com\/68cd68587b30da7c0615e71d"
                 }],
          "type":"tilelayer",
          "visible":true,
