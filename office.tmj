@@ -96,7 +96,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/view.genially.com\/68ca7633b3fe7c8b3c25d2d0"
+                 "value":"<div style=\"width: 100%;\"><div style=\"position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;\"><iframe title=\"T\u00e9l\u00e9phone\" frameborder=\"0\" width=\"1200\" height=\"675\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" src=\"https:\/\/view.genially.com\/68ca7633b3fe7c8b3c25d2d0\" type=\"text\/html\" allowscriptaccess=\"always\" allowfullscreen=\"true\" scrolling=\"yes\" allownetworking=\"all\"><\/iframe> <\/div> <\/div>"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
