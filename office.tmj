@@ -448,7 +448,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/cours.univ-reims.fr\/mod\/scorm\/view.php?id=296101"
+                         "value":"https:\/\/cours.univ-reims.fr\/course\/section.php?id=73902"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
