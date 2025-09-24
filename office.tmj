@@ -1614,15 +1614,9 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":21,
-         "id":126,
+         "id":131,
          "name":"Porte ferm\u00e9e",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"collides",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":31,
@@ -1957,7 +1951,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":131,
+ "nextlayerid":132,
  "nextobjectid":45,
  "orientation":"orthogonal",
  "properties":[
