@@ -581,11 +581,6 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"code",
-                 "type":"string",
-                 "value":"31415"
-                }, 
-                {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"Ma porte"
@@ -1716,6 +1711,11 @@
                          "value":"Porte fermee"
                         }, 
                         {
+                         "name":"code",
+                         "type":"string",
+                         "value":"31415"
+                        }, 
+                        {
                          "name":"door",
                          "type":"bool",
                          "value":true
@@ -1729,8 +1729,8 @@
                  "type":"variable",
                  "visible":true,
                  "width":0,
-                 "x":594.75,
-                 "y":188.333333333333
+                 "x":563.75,
+                 "y":264.666666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
