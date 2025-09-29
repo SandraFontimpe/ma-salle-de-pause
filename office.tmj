@@ -581,6 +581,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"code",
+                 "type":"string",
+                 "value":"5"
+                }, 
+                {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"Ma porte"
@@ -1709,11 +1714,6 @@
                          "name":"closeLayer",
                          "type":"string",
                          "value":"Porte fermee"
-                        }, 
-                        {
-                         "name":"code",
-                         "type":"string",
-                         "value":"5"
                         }, 
                         {
                          "name":"door",
