@@ -581,11 +581,6 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"code",
-                 "type":"string",
-                 "value":"005"
-                }, 
-                {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"Ma porte"
@@ -1718,7 +1713,7 @@
                         {
                          "name":"code",
                          "type":"string",
-                         "value":"005"
+                         "value":"5"
                         }, 
                         {
                          "name":"door",
