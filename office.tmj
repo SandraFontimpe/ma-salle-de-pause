@@ -577,23 +577,13 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":21,
          "id":128,
-         "name":"Doorstep devant",
+         "name":"door_front",
          "opacity":1,
          "properties":[
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"Ma porte"
-                }, 
-                {
-                 "name":"openSound",
-                 "type":"string",
-                 "value":"https:\/\/lasonotheque.org\/UPLOAD\/mp3\/0302.mp3"
-                }, 
-                {
-                 "name":"openTriggerMessage",
-                 "type":"string",
-                 "value":"Cette porte est bloqu\u00e9e, il faut un code \u00e0 3 chiffres."
+                 "value":"my_door"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -625,7 +615,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":21,
          "id":129,
-         "name":"Doorstep derri\u00e8re",
+         "name":"door_behind",
          "opacity":1,
          "properties":[
                 {
@@ -636,7 +626,7 @@
                 {
                  "name":"doorVariable",
                  "type":"string",
-                 "value":"Ma porte"
+                 "value":"my_door"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1444,7 +1434,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":21,
          "id":133,
-         "name":"Porte fermee",
+         "name":"closed_door",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -1476,7 +1466,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":21,
          "id":127,
-         "name":"Porte ouverte",
+         "name":"opened_door",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
@@ -1702,13 +1692,13 @@
                 {
                  "height":0,
                  "id":43,
-                 "name":"Ma porte",
+                 "name":"my_door",
                  "point":true,
                  "properties":[
                         {
                          "name":"closeLayer",
                          "type":"string",
-                         "value":"Porte fermee"
+                         "value":"closed_door"
                         }, 
                         {
                          "name":"code",
@@ -1723,7 +1713,12 @@
                         {
                          "name":"openLayer",
                          "type":"string",
-                         "value":"Porte ouverte"
+                         "value":"opened_door"
+                        }, 
+                        {
+                         "name":"zone",
+                         "type":"string",
+                         "value":"door_front"
                         }],
                  "rotation":0,
                  "type":"variable",
