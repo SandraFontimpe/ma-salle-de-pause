@@ -581,6 +581,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"autoOpen",
+                 "type":"bool",
+                 "value":false
+                }, 
+                {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"my_door"
@@ -1708,7 +1713,7 @@
                         {
                          "name":"door",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"openLayer",
