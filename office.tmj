@@ -37,10 +37,10 @@
         {
          "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+            0, 3, 3, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             0, 3, 3, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 3, 3, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 3, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 3, 3, 3, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 3, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0,
+            0, 3, 3, 3, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             0, 3, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
             3, 3, 0, 0, 0, 0, 0, 3, 3, 3, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 3, 3, 3, 0,
@@ -129,7 +129,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"\ud83d\udcde Le t\u00e9l\u00e9phone fixe clignotte ! \nCliquez [ESPACE] afin d'enqu\u00eater."
+                         "value":"Le t\u00e9l\u00e9phone fixe clignotte. Cliquez sur le bouton afin d'enqu\u00eater."
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -177,7 +177,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"\ud83d\udd0e Un tableau avec des consignes est accroch\u00e9 sur le mur. \nCliquez [ESPACE] afin de vous approcher. s"
+                         "value":"Un tableau avec des consignes est accroch\u00e9 sur le mur. \nCliquez sur le bouton afin de vous approcher."
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -225,7 +225,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Un tableau accroch\u00e9 au mur pr\u00e9sente plusieurs photos d'\u00e9quipes dans leurs bureaux. Cliquez [ESPACE] pour les voir."
+                         "value":"Un tableau accroch\u00e9 au mur pr\u00e9sente plusieurs photos d'\u00e9quipes dans leurs bureaux. Cliquez sur le bouton pour les voir."
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -425,7 +425,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"\ud83d\udd0e Un questionnaire en plusieurs exemplaires intutil\u00e9 \"Faites connaissance \ud83e\ude91\ud83d\udcac\u2728\" est pos\u00e9 sur la table. \nCliquez [ESPACE] pour le lire."
+                         "value":"\ud83d\udd0e Un questionnaire en plusieurs exemplaires est pos\u00e9 sur la table. \nCliquez sur le bouton pour le lire."
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -473,7 +473,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Oh, le cadre est ici ?"
+                         "value":"Oh, le cadre est ici ? Cliquez sur le bouton afin de d\u00e9buter une discussion."
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -507,6 +507,17 @@
                  "id":135,
                  "name":"Responsable informatique",
                  "opacity":1,
+                 "properties":[
+                        {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Ah ! Voici la responsable informatique. Cliquez sur le bouton afin de d\u00e9buter une discussion."
+                        }],
                  "type":"tilelayer",
                  "visible":true,
                  "width":31,
@@ -1560,39 +1571,6 @@
         }, 
         {
          "draworder":"topdown",
-         "id":136,
-         "name":"Calque d'Objets 2",
-         "objects":[
-                {
-                 "height":62,
-                 "id":45,
-                 "name":"",
-                 "properties":[
-                        {
-                         "name":"policy",
-                         "type":"string",
-                         "value":"fullscreen"
-                        }, 
-                        {
-                         "name":"url",
-                         "type":"string",
-                         "value":"https:\/\/view.genially.com\/68ca7633b3fe7c8b3c25d2d0"
-                        }],
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":84.6666666666667,
-                 "x":836,
-                 "y":96
-                }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
          "objects":[
@@ -1909,7 +1887,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/main.ts"
+         "value":"script\/script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
