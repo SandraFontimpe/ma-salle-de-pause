@@ -509,19 +509,9 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"openWebsite",
+                         "name":"url",
                          "type":"string",
-                         "value":"https:\/\/view.genially.com\/68dba958773da0f8e63d51c7"
-                        }, 
-                        {
-                         "name":"openWebsiteTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"openWebsiteTriggerMessage",
-                         "type":"string",
-                         "value":"..."
+                         "value":"https:\/\/view.genially.com\/68ca7633b3fe7c8b3c25d2d0"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -1612,7 +1602,7 @@
                         {
                          "name":"focusable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"jitsiRoom",
@@ -1694,7 +1684,7 @@
                         {
                          "name":"focusable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"jitsiRoom",
@@ -1765,7 +1755,7 @@
                         {
                          "name":"focusable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"jitsiRoom",
@@ -1824,8 +1814,8 @@
                  "type":"variable",
                  "visible":true,
                  "width":0,
-                 "x":558.416666666667,
-                 "y":266.666666666667
+                 "x":592.416666666667,
+                 "y":246.666666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
