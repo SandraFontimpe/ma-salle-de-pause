@@ -1887,7 +1887,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"script\/script.js"
+         "value":"script.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
