@@ -1,0 +1,1 @@
+{"version":3,"file":"custom_stuff-ac52c948.js","sources":["../../custom_stuff.js"],"sourcesContent":["WA.chat.sendChatMessage('Hello world', 'Mr Robot');\n"],"names":[],"mappings":"AAAA,GAAG,KAAK,gBAAgB,cAAe,UAAU"}
