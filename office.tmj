@@ -639,24 +639,14 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"autoClose",
-                 "type":"bool",
-                 "value":false
-                }, 
-                {
-                 "name":"autoOpen",
-                 "type":"bool",
-                 "value":false
+                 "name":"code",
+                 "type":"string",
+                 "value":"0005"
                 }, 
                 {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"my_door"
-                }, 
-                {
-                 "name":"openTriggerMessage",
-                 "type":"string",
-                 "value":"j'en ai marre"
                 }],
          "type":"tilelayer",
          "visible":true,
