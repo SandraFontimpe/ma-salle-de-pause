@@ -639,6 +639,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"autoOpen",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"doorVariable",
                  "type":"string",
                  "value":"my_door"
@@ -1791,14 +1796,9 @@
                          "value":"closed_door"
                         }, 
                         {
-                         "name":"code",
-                         "type":"string",
-                         "value":"31415"
-                        }, 
-                        {
                          "name":"default",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }, 
                         {
                          "name":"door",
