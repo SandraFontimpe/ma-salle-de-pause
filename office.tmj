@@ -10132,14 +10132,24 @@
       "width": 31,
       "properties": [
         {
+          "name": "autoClose",
+          "type": "bool",
+          "value": false
+        },
+        {
           "name": "autoOpen",
           "type": "bool",
-          "value": true
+          "value": false
         },
         {
           "name": "doorVariable",
           "type": "string",
           "value": "my_door"
+        },
+        {
+          "name": "openTriggerMessage",
+          "type": "string",
+          "value": "j'en ai marre"
         }
       ],
       "x": 0,
@@ -26976,37 +26986,6 @@
         0,
         0,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         307,
         0,
         0,
@@ -27039,6 +27018,37 @@
         0,
         0,
         308,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        309,
         0,
         0,
         0,
@@ -27456,8 +27466,8 @@
         0
       ],
       "height": 21,
-      "id": 133,
-      "name": "closed_door",
+      "id": 127,
+      "name": "opened_door",
       "opacity": 1,
       "type": "tilelayer",
       "visible": true,
@@ -27640,7 +27650,7 @@
         0,
         0,
         0,
-        309,
+        0,
         0,
         0,
         0,
@@ -28120,8 +28130,8 @@
         0
       ],
       "height": 21,
-      "id": 127,
-      "name": "opened_door",
+      "id": 133,
+      "name": "closed_door",
       "opacity": 1,
       "type": "tilelayer",
       "visible": true,
@@ -28354,8 +28364,8 @@
           "id": 43,
           "name": "my_door",
           "visible": true,
-          "x": 630.416666666667,
-          "y": 180.666666666667,
+          "x": 600.083333333334,
+          "y": 162.666666666667,
           "height": 0,
           "point": true,
           "properties": [
@@ -28363,11 +28373,6 @@
               "name": "closeLayer",
               "type": "string",
               "value": "closed_door"
-            },
-            {
-              "name": "default",
-              "type": "bool",
-              "value": true
             },
             {
               "name": "door",
@@ -29063,7 +29068,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "office-chunk-1-d4e2e4bb.png",
+      "image": "office-chunk-1-761ca22a.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -29099,7 +29104,7 @@
     {
       "columns": 9,
       "firstgid": 257,
-      "image": "office-chunk-2-d4e2e4bb.png",
+      "image": "office-chunk-2-761ca22a.png",
       "imageheight": 288,
       "imagewidth": 288,
       "margin": 0,
@@ -29111,7 +29116,7 @@
       "tilewidth": 32,
       "tiles": [
         {
-          "id": 50,
+          "id": 53,
           "properties": [
             {
               "name": "collides",
@@ -29121,7 +29126,7 @@
           ]
         },
         {
-          "id": 50,
+          "id": 53,
           "properties": [
             {
               "name": "collides",
@@ -29131,7 +29136,7 @@
           ]
         },
         {
-          "id": 51,
+          "id": 54,
           "properties": [
             {
               "name": "collides",
@@ -29141,7 +29146,7 @@
           ]
         },
         {
-          "id": 51,
+          "id": 54,
           "properties": [
             {
               "name": "collides",
