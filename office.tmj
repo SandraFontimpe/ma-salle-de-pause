@@ -10132,6 +10132,11 @@
       "width": 31,
       "properties": [
         {
+          "name": "autoOpen",
+          "type": "bool",
+          "value": true
+        },
+        {
           "name": "doorVariable",
           "type": "string",
           "value": "my_door"
@@ -28360,14 +28365,9 @@
               "value": "closed_door"
             },
             {
-              "name": "code",
-              "type": "string",
-              "value": "31415"
-            },
-            {
               "name": "default",
               "type": "bool",
-              "value": false
+              "value": true
             },
             {
               "name": "door",
@@ -29063,7 +29063,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "office-chunk-1-4504294c.png",
+      "image": "office-chunk-1-d4e2e4bb.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -29099,7 +29099,7 @@
     {
       "columns": 9,
       "firstgid": 257,
-      "image": "office-chunk-2-4504294c.png",
+      "image": "office-chunk-2-d4e2e4bb.png",
       "imageheight": 288,
       "imagewidth": 288,
       "margin": 0,
