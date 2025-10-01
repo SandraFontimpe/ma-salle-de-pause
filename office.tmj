@@ -29058,7 +29058,7 @@
     {
       "columns": 16,
       "firstgid": 1,
-      "image": "office-chunk-1-45512994.png",
+      "image": "office-chunk-1-d50a3db2.png",
       "imageheight": 512,
       "imagewidth": 512,
       "margin": 0,
@@ -29094,7 +29094,7 @@
     {
       "columns": 9,
       "firstgid": 257,
-      "image": "office-chunk-2-45512994.png",
+      "image": "office-chunk-2-d50a3db2.png",
       "imageheight": 288,
       "imagewidth": 288,
       "margin": 0,
@@ -29175,11 +29175,6 @@
       "name": "mapName",
       "type": "string",
       "value": "Office"
-    },
-    {
-      "name": "scriptDisableModuleSupport",
-      "type": "bool",
-      "value": true
     }
   ],
   "renderorder": "right-down",
