@@ -1875,11 +1875,6 @@
          "value":"Office"
         }, 
         {
-         "name":"script",
-         "type":"string",
-         "value":"custom_stuff.js"
-        }, 
-        {
          "name":"scriptDisableModuleSupport",
          "type":"bool",
          "value":true
